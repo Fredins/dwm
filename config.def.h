@@ -2,7 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
-static const unsigned int gappx     = 10;        /* gaps between windows */
+static const unsigned int gappx     = 0;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -10,8 +10,8 @@ static const int usealtbar          = 1;        /* 1 means use non-dwm status ba
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *alttrayname      = "tray";    /* Polybar tray instance name */
 static const char *altbarcmd        = "/home/fm/.config/polybar/launch.sh"; /* Alternate bar launch command */
-static const char *fonts[]          = { "SometypeMono-Medium:pixelsize=8:antialias=true:autohint=true" };
-static const char dmenufont[]       = "SometypeMono-Regular:pixelsize=14:antialias=true:autohint=true";
+static const char *fonts[]          = { "SometypeMono:pixelsize=8:style=bold:antialias=true:autohint=true" };
+static const char dmenufont[]       = "SometypeMono:pixelsize=16:style=bold:antialias=true:autohint=true";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";

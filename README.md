@@ -8,3 +8,5 @@
 - smartborders
 ## todo
 - master right side
+- steam patch prob
+- focused monitor color indicator

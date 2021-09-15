@@ -66,12 +66,14 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon};
 static const char *termcmd[]  = { "st", NULL };
 static const char *clipcmd[]  = { "clipmenu", NULL };
+static const char *screenshotcmd[]  = { "screenshot", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_n,      spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_c,      spawn,          {.v = clipcmd } },
+	{ MODKEY,                       XK_Print,  spawn,          {.v = screenshotcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
